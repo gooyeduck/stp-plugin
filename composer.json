@@ -1,0 +1,16 @@
+{
+    "name": "gooyeduck/test-plugin",
+    "type": "project",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "satyajit"
+        }
+    ],
+    "minimum-stability": "beta",
+    "files": [ "Includes/functions.php" ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"STP\\": "Includes/"}
+    }
+}
